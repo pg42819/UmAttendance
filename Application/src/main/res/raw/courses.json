@@ -1,0 +1,249 @@
+[
+  {
+    "code" : "CG",
+    "name" : "Computação Gráfica",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Visualização e Iluminação I",
+        "day"  : "THURSDAY",
+        "start": "14:00",
+        "end"  : "17:00"
+      },
+      {
+        "name" : "Visão por Computador",
+        "day"  : "THURSDAY",
+        "start": "17:00",
+        "end"  : "20:00"
+      }
+    ]
+  },
+  {
+    "code" : "CPD",
+    "name" : "Computação Paralela e Distribuída",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Arquiteturas Avançadas",
+        "day"  : "TUESDAY",
+        "start": "09:00",
+        "end"  : "12:00"
+      },
+      {
+        "name" : "Paradigmas de Computação Paralela",
+        "day"  : "TUESDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      }
+    ]
+  },
+  {
+    "code" : "CSI",
+    "name" : "Criptografia e Segurança da Informação",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Tecnologia Criptográfica",
+        "day"  : "TUESDAY",
+        "start": "09:00",
+        "end"  : "12:00"
+      },
+      {
+        "name" : "Tecnologia da Segurança",
+        "day"  : "TUESDAY",
+        "start": "14:00",
+        "end"  : "17:00"
+      }
+    ]
+  },
+  {
+    "code" : "EA",
+    "name" : "Engenharia de Aplicações",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Infraestruturas de Centro de Dados",
+        "day"  : "TUESDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      },
+      {
+        "name" : "Administração de Base de Dados",
+        "day"  : "TUESDAY",
+        "start": "09:00",
+        "end"  : "12:00"
+      }
+    ]
+  },
+  {
+    "code" : "ERS",
+    "name" : "Engenharia de Redes e Serviços Internet",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Tecnologias e Protocolos Internet",
+        "day"  : "THURSDAY",
+        "start": "09:00",
+        "end"  : "12:00"
+      },
+      {
+        "name" : "Redes Móveis",
+        "day"  : "THURSDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      }
+    ]
+  },
+  {
+    "code" : "EC",
+    "name" : "Engenharia do Conhecimento",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Administração e Exploração de Bases de Dados",
+        "day"  : "FRIDAY",
+        "start": "16:00",
+        "end"  : "19:00"
+      },
+      {
+        "name" : "Análise de Dados",
+        "day"  : "FRIDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      }
+    ]
+  },
+  {
+    "code" : "GVR",
+    "name" : "Gestão e Virtualização de Redes",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Gestão de Redes",
+        "day"  : "FRIDAY",
+        "start": "16:00",
+        "end"  : "19:00"
+      },
+      {
+        "name" : "Segurança em Redes",
+        "day"  : "FRIDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      }
+    ]
+  },
+  {
+    "code" : "MFES",
+    "name" : "Métodos Formais em Engenharia de Software",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Especificação e Modelação",
+        "day"  : "THURSDAY",
+        "start": "09:00",
+        "end"  : "12:00"
+      },
+      {
+        "name" : "Cálculo de Sistemas de Informação",
+        "day"  : "THURSDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      }
+    ]
+  },
+  {
+    "code" : "PLC",
+    "name" : "Processamento de Linguagens e Conhecimento",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Gramáticas na Compreensão de Software",
+        "day"  : "MONDAY",
+        "start": "17:00",
+        "end"  : "20:00"
+      },
+      {
+        "name" : "Processamento e Representação de Informação",
+        "day"  : "MONDAY",
+        "start": "14:00",
+        "end"  : "17:00"
+      }
+    ]
+  },
+  {
+    "code" : "SD",
+    "name" : "Sistemas Distribuídos",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Paradigmas de Sistemas Distribuídos",
+        "day"  : "TUESDAY",
+        "start": "17:00",
+        "end"  : "20:00"
+      },
+      {
+        "name" : "Fundamentos de Sistemas Distribuídos",
+        "day"  : "MONDAY",
+        "start": "17:00",
+        "end"  : "20:00"
+      }
+    ]
+  },
+  {
+    "code" : "SI",
+    "name" : "Sistemas Inteligentes",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Agentes Inteligentes",
+        "day"  : "MONDAY",
+        "start": "17:00",
+        "end"  : "20:00"
+      },
+      {
+        "name" : "Aprendizaem e Extração de Conhecimento",
+        "day"  : "TUESDAY",
+        "start": "17:00",
+        "end"  : "20:00"
+      }
+    ]
+  },
+  {
+    "code" : "CD",
+    "name" : "Ciência de Dados",
+    "type" : "perfil",
+    "lessons" : [
+      {
+        "name" : "Aprendizagem Automática I",
+        "day"  : "FRIDAY",
+        "start": "16:00",
+        "end"  : "19:00"
+      },
+      {
+        "name" : "Computação Avançada",
+        "day"  : "FRIDAY",
+        "start": "13:00",
+        "end"  : "16:00"
+      }
+    ]
+  },
+  {
+    "code": "MLFA",
+    "name": "Machine Learning: Fundamentos e Aplicações",
+    "type": "perfil",
+    "lessons": [
+      {
+        "name": "Métricas em Machine Learning",
+        "day": "THURSDAY",
+        "start": "08:00",
+        "end": "11:00"
+      },
+      {
+        "name": "Sistemas Baseados em Similaridade",
+        "day": "THURSDAY",
+        "start": "13:00",
+        "end": "16:00"
+      }
+    ]
+  }
+]
