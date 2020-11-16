@@ -24,4 +24,9 @@
     <dimen name="spacing_small">8dp</dimen>
     <dimen name="spacing_medium">16dp</dimen>
     <dimen name="spacing_large">32dp</dimen>
+    <dimen name="welcome_font_size">16sp</dimen>
+    <dimen name="lesson_time_name_font_size">14sp</dimen>
+    <dimen name="lesson_code_size">24sp</dimen>
+    <dimen name="lesson_name_font_size">18sp</dimen>
+    <dimen name="lesson_time_font_size">12sp</dimen>
 </resources>

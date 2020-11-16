@@ -12,7 +12,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcaea45e-ff21-49c7-8c6e-98990aa48a51" name="Default Changelist" comment="" />
+    <list default="true" id="dcaea45e-ff21-49c7-8c6e-98990aa48a51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/ScheduleItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/eeumround1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/LessonsRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ScheduleRecycleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/utils/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/CourseLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_more_vert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_more_vert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout-v21/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_preferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/lesson_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/lesson_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +62,7 @@
         <option value="layoutResourceFile" />
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -48,7 +80,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="COLOR" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-view/Users/cwerner/Library/Android/sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
@@ -57,14 +90,14 @@
     <property name="multi-representation-preview/Users/cwerner/Library/Android/sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recommended.upgrade.last.time.stamp" value="1605430498944" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Properties" />
+    <option name="MODULE_TAB" value="Default Config" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -74,6 +107,8 @@
       <recent name="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt.uminho.pg42819.attendance.model" />
+      <recent name="pt.uminho.pg42819.attendance.data" />
       <recent name="pt.uminho.pg42819.attendance" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -202,19 +237,30 @@
       <option name="presentableId" value="Default" />
       <updated>1605429830994</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial checkin">
+      <created>1605468631476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605468631478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Initial checkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial checkin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="350" width="1463" height="647" key="#PSD" timestamp="1605441128930">
-      <screen x="0" y="23" width="1920" height="1102" />
+    <state x="317" y="351" width="1463" height="647" key="#PSD" timestamp="1605476390627">
+      <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="317" y="350" key="#PSD/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605441128930" />
-    <state x="317" y="351" width="1463" height="647" key="#PSD/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605440503803" />
+    <state x="317" y="351" width="1463" height="647" key="#PSD/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476390627" />
+    <state x="317" y="351" key="#PSD/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605473334368" />
     <state x="84" y="403" width="1078" height="627" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1605445478953">
       <screen x="0" y="23" width="1920" height="1102" />
     </state>
@@ -224,23 +270,27 @@
     </state>
     <state x="296" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605441852131" />
     <state x="296" y="229" width="1206" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605441259668" />
-    <state x="729" y="189" key="#com.intellij.ide.util.MemberChooser" timestamp="1605446861336">
-      <screen x="0" y="23" width="1920" height="1102" />
+    <state x="729" y="189" key="#com.intellij.ide.util.MemberChooser" timestamp="1605515146399">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
-    <state x="729" y="189" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446861336" />
+    <state x="729" y="189" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605515146399" />
+    <state x="729" y="189" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605480333564" />
     <state x="729" y="189" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605437933002" />
+    <state x="729" y="190" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605473418149" />
     <state x="710" y="475" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1605430439499">
       <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state x="710" y="475" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605430439499" />
-    <state x="632" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605468220266">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state x="632" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605509370629">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state x="632" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605509370629" />
     <state x="632" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468220266" />
-    <state x="2004" y="129" key="#xdebugger.evaluate" timestamp="1605445770744">
+    <state x="2004" y="129" key="#xdebugger.evaluate" timestamp="1605507892688">
       <screen x="1920" y="23" width="1344" height="817" />
     </state>
-    <state x="2004" y="129" key="#xdebugger.evaluate/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605445770744" />
+    <state x="2004" y="129" key="#xdebugger.evaluate/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507892688" />
+    <state x="2004" y="129" key="#xdebugger.evaluate/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605479667579" />
     <state x="100" y="123" width="1720" height="900" key="AVDManager" timestamp="1605442548377">
       <screen x="0" y="23" width="1920" height="1102" />
     </state>
@@ -249,52 +299,70 @@
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="548" y="329" key="AndroidCreateResourceDirectoryDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605435511907" />
-    <state x="545" y="328" key="AndroidCreateResourceFileDialog" timestamp="1605463576298">
+    <state x="545" y="328" key="AndroidCreateResourceFileDialog" timestamp="1605470246876">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
-    <state x="545" y="328" key="AndroidCreateResourceFileDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605463576298" />
-    <state x="771" y="332" key="AndroidCreateXmlResourceDialog" timestamp="1605464337426">
+    <state x="545" y="328" key="AndroidCreateResourceFileDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605470246876" />
+    <state x="771" y="332" key="AndroidCreateXmlResourceDialog" timestamp="1605480553302">
+      <screen x="0" y="23" width="1920" height="1102" />
+    </state>
+    <state x="771" y="332" key="AndroidCreateXmlResourceDialog/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605480553302" />
+    <state x="771" y="332" key="AndroidCreateXmlResourceDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605470888381" />
+    <state x="771" y="333" key="AndroidCreateXmlResourceDialog/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472560436" />
+    <state x="309" y="74" key="CommitChangelistDialog2" timestamp="1605468631068">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
-    <state x="771" y="332" key="AndroidCreateXmlResourceDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605464337426" />
-    <state width="1059" height="234" key="GridCell.Tab.0.bottom" timestamp="1605468220520">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state x="309" y="74" key="CommitChangelistDialog2/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468631068" />
+    <state width="1868" height="222" key="GridCell.Tab.0.bottom" timestamp="1605523101630">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="222" key="GridCell.Tab.0.bottom/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101630" />
     <state width="934" height="357" key="GridCell.Tab.0.bottom/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
-    <state width="1059" height="234" key="GridCell.Tab.0.bottom/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468220520" />
-    <state width="1059" height="234" key="GridCell.Tab.0.center" timestamp="1605468220519">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="295" key="GridCell.Tab.0.bottom/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683798" />
+    <state width="1868" height="222" key="GridCell.Tab.0.bottom/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158252" />
+    <state width="1868" height="222" key="GridCell.Tab.0.center" timestamp="1605523101629">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="222" key="GridCell.Tab.0.center/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101629" />
     <state width="934" height="357" key="GridCell.Tab.0.center/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
-    <state width="1059" height="234" key="GridCell.Tab.0.center/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468220519" />
-    <state width="1059" height="234" key="GridCell.Tab.0.left" timestamp="1605468220519">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="295" key="GridCell.Tab.0.center/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683797" />
+    <state width="1868" height="222" key="GridCell.Tab.0.center/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158250" />
+    <state width="1868" height="222" key="GridCell.Tab.0.left" timestamp="1605523101623">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="222" key="GridCell.Tab.0.left/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101623" />
     <state width="934" height="357" key="GridCell.Tab.0.left/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
-    <state width="1059" height="234" key="GridCell.Tab.0.left/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468220519" />
-    <state width="1059" height="234" key="GridCell.Tab.0.right" timestamp="1605468220519">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="295" key="GridCell.Tab.0.left/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683797" />
+    <state width="1868" height="222" key="GridCell.Tab.0.left/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158248" />
+    <state width="1868" height="222" key="GridCell.Tab.0.right" timestamp="1605523101629">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="222" key="GridCell.Tab.0.right/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101629" />
     <state width="934" height="357" key="GridCell.Tab.0.right/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
-    <state width="1059" height="234" key="GridCell.Tab.0.right/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468220519" />
-    <state width="1868" height="295" key="GridCell.Tab.1.bottom" timestamp="1605467121315">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="295" key="GridCell.Tab.0.right/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683798" />
+    <state width="1868" height="222" key="GridCell.Tab.0.right/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158250" />
+    <state width="1868" height="301" key="GridCell.Tab.1.bottom" timestamp="1605507938482">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="301" key="GridCell.Tab.1.bottom/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
     <state width="1157" height="414" key="GridCell.Tab.1.bottom/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642289" />
     <state width="1868" height="295" key="GridCell.Tab.1.bottom/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121315" />
-    <state width="1868" height="295" key="GridCell.Tab.1.center" timestamp="1605467121315">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="301" key="GridCell.Tab.1.center" timestamp="1605507938482">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="301" key="GridCell.Tab.1.center/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
     <state width="1157" height="414" key="GridCell.Tab.1.center/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642288" />
     <state width="1868" height="295" key="GridCell.Tab.1.center/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121315" />
-    <state width="1868" height="295" key="GridCell.Tab.1.left" timestamp="1605467121314">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="301" key="GridCell.Tab.1.left" timestamp="1605507938482">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="301" key="GridCell.Tab.1.left/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
     <state width="1157" height="414" key="GridCell.Tab.1.left/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642288" />
     <state width="1868" height="295" key="GridCell.Tab.1.left/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121314" />
-    <state width="1868" height="295" key="GridCell.Tab.1.right" timestamp="1605467121315">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state width="1868" height="301" key="GridCell.Tab.1.right" timestamp="1605507938482">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state width="1868" height="301" key="GridCell.Tab.1.right/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
     <state width="1157" height="414" key="GridCell.Tab.1.right/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642289" />
     <state width="1868" height="295" key="GridCell.Tab.1.right/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121315" />
     <state x="355" y="125" key="SettingsEditor" timestamp="1605458194414">
@@ -306,10 +374,11 @@
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="480" y="252" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468466091" />
-    <state x="367" y="398" width="1170" height="574" key="find.popup" timestamp="1605456953210">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state x="367" y="397" width="1170" height="574" key="find.popup" timestamp="1605480599261">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
-    <state x="367" y="398" width="1170" height="574" key="find.popup/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605456953210" />
+    <state x="367" y="397" width="1170" height="574" key="find.popup/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605480599261" />
+    <state x="367" y="398" width="1170" height="574" key="find.popup/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468815476" />
     <state x="565" y="406" key="psd.add.library.dependency.panel.dimension" timestamp="1605437288001">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
@@ -323,29 +392,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/utils/ResourceUtils.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/utils/JsonLoader.java</url>
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/JsonLoader.java</url>
           <line>87</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/utils/ResourceUtils.java</url>
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/CourseLoader.java</url>
           <line>110</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java</url>
-          <line>51</line>
+          <line>58</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java</url>
-          <line>59</line>
+          <line>66</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

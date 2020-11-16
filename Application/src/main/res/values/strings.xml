@@ -14,5 +14,7 @@
     <string name="preferences">Select your preferences</string>
     <string name="preferences_explanation">Disclaimer: This screen will only be dark when Dark Mode is forced in the OS settings in Android Q and above.</string>
     <string name="element_text">foobar</string>
+	<string name="emtpy_schedule">No classes scheduled</string>
+    <string name="emtpy_schedule_message">Press the Courses button to set up your schedule</string>
 
 </resources>

@@ -2,14 +2,60 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content">
-
+		android:layout_height="wrap_content"
+		android:background="#ffffff"
+		android:layout_margin="1dp"
+		android:padding="8dp">
 
 	<TextView
-			android:id="@+id/lessonTextView"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/element_text"
-			android:textSize="18sp"
-			android:lineSpacingExtra="12sp" />
+			android:id="@+id/scheduleCodeView"
+			android:layout_width="26dp"
+			android:layout_height="26dp"
+			android:padding="1dp"
+			android:background="@color/cardview_dark_background"
+			android:text="what?"
+			android:textSize="@dimen/lesson_code_size"
+			android:textStyle="bold" />
+	<!--			android:textColor="@co000000"-->
+
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="8dp">
+
+			<TextView
+					android:id="@+id/scheduleTitle"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/element_text"
+					android:textSize="@dimen/lesson_name_font_size"/>
+<!--					android:lineSpacingExtra="4sp" />-->
+
+			<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:padding="8dp">
+
+			<TextView
+					android:id="@+id/scheduleTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/element_text"
+					android:textSize="@dimen/lesson_time_font_size"/>
+
+			<TextView
+					android:id="@+id/scheduleAlert"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="right"
+					android:text="@string/element_text"
+					android:textColor="@color/secondary"
+					android:background="@color/primary"
+					android:textSize="@dimen/lesson_time_font_size"/>
+
+			</LinearLayout>
+	</LinearLayout>
+
 </LinearLayout>

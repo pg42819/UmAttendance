@@ -16,7 +16,6 @@
 
 package pt.uminho.pg42819.attendance;
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,10 +24,15 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.fragment.app.Fragment;
 
+import pt.uminho.pg42819.attendance.data.CourseLoader;
+import pt.uminho.pg42819.attendance.data.ScheduleManager;
+
 public class MainActivity extends AppCompatActivity {
+
+    private CourseLoader _courseLoader;
+    private ScheduleManager _scheduleManager;
 
     private final BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -65,15 +69,31 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public CourseLoader getCourseLoader()
+    {
+        if (_courseLoader == null) {
+            _courseLoader = new CourseLoader(this);
+        }
+        return _courseLoader;
+    }
+
+    public ScheduleManager getScheduleManager()
+    {
+        if (_scheduleManager == null) {
+            _scheduleManager = new ScheduleManager(this, getCourseLoader());
+        }
+        return _scheduleManager;
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
 
         // This demonstrates how to programmatically tint a drawable
-        MenuItem item = menu.findItem(R.id.action_more);
-        Drawable drawableWrap = DrawableCompat.wrap(item.getIcon()).mutate();
-        DrawableCompat.setTint(drawableWrap, ColorUtils.getThemeColor(this, R.attr.colorOnPrimary));
-        item.setIcon(drawableWrap);
+//        MenuItem item = menu.findItem(R.id.action_more);
+//        Drawable drawableWrap = DrawableCompat.wrap(item.getIcon()).mutate();
+//        DrawableCompat.setTint(drawableWrap, ColorUtils.getThemeColor(this, R.attr.colorOnPrimary));
+//        item.setIcon(drawableWrap);
 
         return true;
     }
@@ -81,10 +101,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_more) {
-            // TODO
-            return true;
-        }
+//        if (id == R.id.action_more) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -94,11 +113,11 @@ public class MainActivity extends AppCompatActivity {
         if (fragment == null) {
             switch (tag) {
                 case WelcomeFragment.TAG: {
-                    fragment = new WelcomeFragment();
+                    fragment = new WelcomeFragment(getScheduleManager());
                     break;
                 }
                 case CoursesFragment.TAG: {
-                    fragment = new CoursesFragment();
+                    fragment = new CoursesFragment(getCourseLoader(), getScheduleManager());
                     break;
                 }
                 case SettingsFragment.TAG: {
@@ -106,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 }
                 default: {
-                    fragment = new WelcomeFragment();
+                    fragment = new WelcomeFragment(getScheduleManager());
                     break;
                 }
             }

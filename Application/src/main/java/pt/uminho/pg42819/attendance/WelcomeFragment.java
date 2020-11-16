@@ -28,13 +28,20 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import pt.uminho.pg42819.attendance.data.ScheduleManager;
 import pt.uminho.pg42819.attendance.model.Course;
-import pt.uminho.pg42819.attendance.utils.ResourceUtils;
+import pt.uminho.pg42819.attendance.data.CourseLoader;
 
 public class WelcomeFragment extends Fragment {
 
     static final String TAG = "VectorDrawableFragmentTag";
     private Course[] courses;
+    private ScheduleManager _scheduleManager;
+
+    public WelcomeFragment(ScheduleManager scheduleManager)
+    {
+        _scheduleManager = scheduleManager;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -58,7 +65,7 @@ public class WelcomeFragment extends Fragment {
                                                                  DividerItemDecoration.VERTICAL));
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
-        LessonsRecyclerAdapter adapter = new LessonsRecyclerAdapter(courses);
+        ScheduleRecycleAdapter adapter = new ScheduleRecycleAdapter(_scheduleManager);
         recyclerView.setAdapter(adapter);
 
         return welcomeView;
@@ -66,6 +73,7 @@ public class WelcomeFragment extends Fragment {
 
     private void initDataset()
     {
-        courses = new ResourceUtils(getActivity().getApplicationContext()).getCourses();
+//    	getActivity().getPreferences(dd
+        courses = new CourseLoader(getActivity().getApplicationContext()).getCourses();
     }
 }
