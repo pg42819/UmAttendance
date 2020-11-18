@@ -14,10 +14,13 @@ import pt.uminho.pg42819.attendance.model.Course;
 import pt.uminho.pg42819.attendance.model.Lesson;
 import pt.uminho.pg42819.attendance.model.ScheduleItem;
 
+/**
+ * Creates and manages schedule item objects representing a class time
+ * for a specific MEI Profile
+ */
 public class ScheduleManager implements SharedPreferences.OnSharedPreferenceChangeListener
 {
 	private static final String LOGTAG = ScheduleManager.class.getSimpleName();
-//	private final static LocalDateTime NEVER = LocalDateTime.of(1970, 1, 1, 0, 0);
 
 	public static final long ALERT_FRESHNESS_MILLISECONDS = 2 * 60 * 1000; // 2 mins
 	private long _lastUpdate = 0;

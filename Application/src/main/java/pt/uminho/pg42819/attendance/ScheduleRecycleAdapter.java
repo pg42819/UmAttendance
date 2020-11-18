@@ -10,6 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import pt.uminho.pg42819.attendance.data.ScheduleManager;
 import pt.uminho.pg42819.attendance.model.ScheduleItem;
 
+/**
+ * Loads and fills the data for rows in the schedule list on the Home screen
+ * of the app.
+ */
 public class ScheduleRecycleAdapter extends RecyclerView.Adapter<ScheduleRecycleAdapter.ScheduleItemViewHolder>
 {
 	private ScheduleManager _scheduleManager;
@@ -67,8 +71,11 @@ public class ScheduleRecycleAdapter extends RecyclerView.Adapter<ScheduleRecycle
 		_scheduleManager = scheduleManager;
 	}
 
-	// Create new views (invoked by the layout manager)
 	@Override
+
+	/**
+	 * Create new views (invoked by the layout manager)
+	 */
 	public ScheduleItemViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
 		// Create a new view, which defines the UI of the list item
 		View view = LayoutInflater.from(viewGroup.getContext())
@@ -77,11 +84,9 @@ public class ScheduleRecycleAdapter extends RecyclerView.Adapter<ScheduleRecycle
 		return new ScheduleItemViewHolder(view);
 	}
 
-	// Replace the contents of a view (invoked by the layout manager)
 	@Override
 	public void onBindViewHolder(ScheduleItemViewHolder viewHolder, final int position) {
-
-		// Needs to be fast
+		// Needs to be fast since we're in a view holder, so only update if needed
 		_scheduleManager.updateAlertsIfNeeded();
 
 		// Get element from your dataset at this position and replace the
@@ -104,7 +109,6 @@ public class ScheduleRecycleAdapter extends RecyclerView.Adapter<ScheduleRecycle
 		}
 	}
 
-	// Return the size of your dataset (invoked by the layout manager)
 	@Override
 	public int getItemCount() {
 		return _scheduleManager.getItemCount();

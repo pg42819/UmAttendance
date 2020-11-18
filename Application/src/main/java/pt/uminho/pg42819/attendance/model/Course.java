@@ -3,8 +3,8 @@ package pt.uminho.pg42819.attendance.model;
 import java.util.List;
 
 /**
- * Represents an  UMinho course, such as an MIEI course like Machine Learning for Applications.
- *
+ * Represents an  UMinho course, such as an MIEI course like
+ * Machine Learning for Applications.
  */
 public class Course
 {

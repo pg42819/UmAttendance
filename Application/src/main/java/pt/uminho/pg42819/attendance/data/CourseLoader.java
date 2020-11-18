@@ -16,6 +16,12 @@ import java.io.Writer;
 import pt.uminho.pg42819.attendance.R;
 import pt.uminho.pg42819.attendance.model.Course;
 
+/**
+ * Loads the initial timetable for MEI 2020/2021 from an internal JSON file.
+ *
+ * TODO: In the future this should be downloaded from the backend server
+ *       to allow updates without app upgrades
+ */
 public class CourseLoader
 {
 	private static final String LOGTAG = CourseLoader.class.getSimpleName();
@@ -27,7 +33,6 @@ public class CourseLoader
 	{
 		_context = context;
 		_courses = null;
-
 	}
 
 	public Course[] getCourses()
@@ -82,16 +87,5 @@ public class CourseLoader
 
 		String jsonString = writer.toString();
 		return jsonString;
-	}
-
-	/**
-	 * Build an object from the specified JSON string.
-	 * @param type The type of the object to build.
-	 * @param jsonString the raw json String
-	 */
-	public <T> T loadObject(Class<T> type, String jsonString)
-	{
-		Gson gson = new GsonBuilder().create();
-		return gson.fromJson(jsonString, type);
 	}
 }

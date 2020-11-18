@@ -1,19 +1,3 @@
-/*
- * Copyright (C) 2019 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package pt.uminho.pg42819.attendance;
 
 import android.os.Bundle;
@@ -29,6 +13,11 @@ import androidx.fragment.app.Fragment;
 import pt.uminho.pg42819.attendance.data.CourseLoader;
 import pt.uminho.pg42819.attendance.data.ScheduleManager;
 
+/**
+ * Main Activity of the MEI Schedule App.
+ * This sets up the nav bar at the bottom, and holds the event handling
+
+ */
 public class MainActivity extends AppCompatActivity {
 
     private CourseLoader _courseLoader;
@@ -86,21 +75,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    // TODO Menus are not used by MEI Schedule right now, consider getting rid of them
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
-
-        // This demonstrates how to programmatically tint a drawable
-//        MenuItem item = menu.findItem(R.id.action_more);
-//        Drawable drawableWrap = DrawableCompat.wrap(item.getIcon()).mutate();
-//        DrawableCompat.setTint(drawableWrap, ColorUtils.getThemeColor(this, R.attr.colorOnPrimary));
-//        item.setIcon(drawableWrap);
-
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        // TODO: This was the overflow button - add it back if we want a menu
 //        if (id == R.id.action_more) {
 //            return true;
 //        }
@@ -108,6 +92,12 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Select and display the appopriate fragment: home, courses, or about,
+     * when a user clicks on of the navigation buttons.
+     *
+     * @param tag tag provided by the button click for fragment to show
+     */
     private void showFragment(@NonNull String tag) {
         Fragment fragment = getSupportFragmentManager().findFragmentByTag(tag);
         if (fragment == null) {

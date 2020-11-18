@@ -1,10 +1,12 @@
 package pt.uminho.pg42819.attendance.model;
 
 import java.time.DayOfWeek;
-import java.time.LocalTime;
 
 /**
- * Represents a lesson slot in the course timetable
+ * Represents a lesson slot in the course timetable.
+ *
+ * For example, a course like MLFA might have a class on Thursday between
+ * 9:00 and 12:00 called Metrics in Machine Learning
  */
 public class Lesson
 {

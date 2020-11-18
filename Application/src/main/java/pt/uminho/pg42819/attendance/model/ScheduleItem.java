@@ -14,7 +14,13 @@ import java.util.Locale;
 import pt.uminho.pg42819.attendance.R;
 
 /**
- * Represents an actual lesson in the week which might or might not be assigned to the current user
+ * Represents an actual lesson in the week which might or might not be
+ * assigned to the current user.
+ *
+ * ScheduleItems are Comparable so that they can be sorted by start time
+ * and day, and can be decorated with "alert" information based on the current
+ * time, indicating for instance, if the item is about to start, is
+ * scheduled for tomorrow, etc.
  */
 public class ScheduleItem implements Comparable<ScheduleItem>
 {
@@ -74,7 +80,6 @@ public class ScheduleItem implements Comparable<ScheduleItem>
 		String dayAbbr = _day.getDisplayName(TextStyle.SHORT, _locale);
 		String dayAndTime = String.format("%s %s-%s", dayAbbr,
 			_start.format(_timeFormat), _end.format(_timeFormat));
-		// TODO append current-time specific warnings
 		return dayAndTime;
 	}
 

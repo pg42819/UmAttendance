@@ -25,8 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcaea45e-ff21-49c7-8c6e-98990aa48a51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout-v21/fragment_about.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -35,21 +33,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ColorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/AboutFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/AboutFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/AttendanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/AttendanceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ScheduleRecycleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ScheduleRecycleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/SettingsFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/AboutFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ThemeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ThemeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/CourseLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/CourseLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/Lesson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/ScheduleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/ScheduleItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/lesson_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/lesson_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/menu/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/menu/navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605544374481</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Renamed the fragments and menu items to Home, Courses, About&#10;Added info in a text view to the about screen&#10;cleaned up the recycle view layout">
+      <created>1605716747373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605716747373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +306,8 @@
     </ignored-roots>
     <MESSAGE value="Initial checkin" />
     <MESSAGE value="Updated all of the layouts, added recycle view detailed layout for the Schedules&#10;Added schedule management&#10;imported icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated all of the layouts, added recycle view detailed layout for the Schedules&#10;Added schedule management&#10;imported icons" />
+    <MESSAGE value="Renamed the fragments and menu items to Home, Courses, About&#10;Added info in a text view to the about screen&#10;cleaned up the recycle view layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed the fragments and menu items to Home, Courses, About&#10;Added info in a text view to the about screen&#10;cleaned up the recycle view layout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="351" width="1463" height="647" key="#PSD" timestamp="1605476390627">
@@ -361,9 +366,10 @@
     <state x="771" y="332" key="AndroidCreateXmlResourceDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605470888381" />
     <state x="771" y="333" key="AndroidCreateXmlResourceDialog/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472560436" />
     <state x="771" y="334" key="AndroidCreateXmlResourceDialog/0.23.1920.1109/1920.23.1344.817@0.23.1920.1109" timestamp="1605545001874" />
-    <state x="309" y="74" key="CommitChangelistDialog2" timestamp="1605544372597">
-      <screen x="0" y="23" width="1920" height="1108" />
+    <state x="65" y="23" key="CommitChangelistDialog2" timestamp="1605716746571">
+      <screen x="0" y="23" width="1344" height="766" />
     </state>
+    <state x="65" y="23" key="CommitChangelistDialog2/0.23.1344.766@0.23.1344.766" timestamp="1605716746571" />
     <state x="309" y="74" key="CommitChangelistDialog2/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468631068" />
     <state x="309" y="74" key="CommitChangelistDialog2/0.23.1920.1108/1920.23.1344.817@0.23.1920.1108" timestamp="1605544372597" />
     <state width="1868" height="300" key="GridCell.Tab.0.bottom" timestamp="1605548251669">
@@ -423,9 +429,10 @@
     </state>
     <state x="355" y="125" key="SettingsEditor/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605441784516" />
     <state x="355" y="125" key="SettingsEditor/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605458194414" />
-    <state x="460" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605544643527">
-      <screen x="0" y="23" width="1920" height="1109" />
+    <state x="322" y="143" key="Vcs.Push.Dialog.v2" timestamp="1605716759546">
+      <screen x="0" y="23" width="1344" height="766" />
     </state>
+    <state x="322" y="143" key="Vcs.Push.Dialog.v2/0.23.1344.766@0.23.1344.766" timestamp="1605716759546" />
     <state x="460" y="249" key="Vcs.Push.Dialog.v2/0.23.1920.1109/1920.23.1344.817@0.23.1920.1109" timestamp="1605544643526" />
     <state x="480" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605544387156">
       <screen x="0" y="23" width="1920" height="1108" />
@@ -458,33 +465,28 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/CourseLoader.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java</url>
-          <line>58</line>
+          <line>42</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java</url>
-          <line>66</line>
+          <line>50</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java</url>
-          <line>46</line>
+          <line>30</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java</url>
-          <line>38</line>
+          <line>41</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java</url>
-          <line>44</line>
+          <line>47</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
