@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    showFragment(WelcomeFragment.TAG);
+                    showFragment(HomeFragment.TAG);
                     return true;
                 case R.id.navigation_preferences:
                     showFragment(CoursesFragment.TAG);
                     return true;
                 case R.id.navigation_settings:
-                    showFragment(SettingsFragment.TAG);
+                    showFragment(AboutFragment.TAG);
                     return true;
             }
             return false;
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationListener);
 
         if (savedInstanceState == null) {
-            showFragment(WelcomeFragment.TAG);
+            showFragment(HomeFragment.TAG);
         }
     }
 
@@ -112,20 +112,20 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment = getSupportFragmentManager().findFragmentByTag(tag);
         if (fragment == null) {
             switch (tag) {
-                case WelcomeFragment.TAG: {
-                    fragment = new WelcomeFragment(getScheduleManager());
+                case HomeFragment.TAG: {
+                    fragment = new HomeFragment(getScheduleManager());
                     break;
                 }
                 case CoursesFragment.TAG: {
                     fragment = new CoursesFragment(getCourseLoader(), getScheduleManager());
                     break;
                 }
-                case SettingsFragment.TAG: {
-                    fragment = new SettingsFragment();
+                case AboutFragment.TAG: {
+                    fragment = new AboutFragment();
                     break;
                 }
                 default: {
-                    fragment = new WelcomeFragment(getScheduleManager());
+                    fragment = new HomeFragment(getScheduleManager());
                     break;
                 }
             }

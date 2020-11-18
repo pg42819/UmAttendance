@@ -8,41 +8,48 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcaea45e-ff21-49c7-8c6e-98990aa48a51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/ScheduleItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/divider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/eeumround1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/res/layout-v21/fragment_about.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/CoursesFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/LessonsRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ScheduleRecycleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ColorUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/utils/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/CourseLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_more_vert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/drawable/ic_more_vert.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout-v21/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ScheduleRecycleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/ScheduleRecycleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/SettingsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/AboutFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/ScheduleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/model/ScheduleItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_preferences.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/layout/lesson_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/lesson_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/menu/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/menu/navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +88,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ResourceManagerPrefKey.ResourceType" value="COLOR" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/Users/cwerner/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED" value="ViewPager2" />
     <property name="android-custom-view/Users/cwerner/Library/Android/sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application/src/main/res/layout-v21" />
+    <property name="multi-representation-preview/Users/cwerner/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/cwerner/Library/Android/sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -104,12 +113,13 @@
       <recent name="pt.uminho.pg42819" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Application/src/main/res/layout-v21" />
       <recent name="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt.uminho.pg42819.attendance" />
       <recent name="pt.uminho.pg42819.attendance.model" />
       <recent name="pt.uminho.pg42819.attendance.data" />
-      <recent name="pt.uminho.pg42819.attendance" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pt.uminho.pg42819.attendance.model" />
@@ -226,6 +236,9 @@
       </method>
     </configuration>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_NON_PUBLIC" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -244,15 +257,52 @@
       <option name="project" value="LOCAL" />
       <updated>1605468631478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated all of the layouts, added recycle view detailed layout for the Schedules&#10;Added schedule management&#10;imported icons">
+      <created>1605544374481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605544374481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Initial checkin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial checkin" />
+    <MESSAGE value="Updated all of the layouts, added recycle view detailed layout for the Schedules&#10;Added schedule management&#10;imported icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated all of the layouts, added recycle view detailed layout for the Schedules&#10;Added schedule management&#10;imported icons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="351" width="1463" height="647" key="#PSD" timestamp="1605476390627">
@@ -303,89 +353,100 @@
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="545" y="328" key="AndroidCreateResourceFileDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605470246876" />
-    <state x="771" y="332" key="AndroidCreateXmlResourceDialog" timestamp="1605480553302">
-      <screen x="0" y="23" width="1920" height="1102" />
+    <state x="771" y="331" key="AndroidCreateXmlResourceDialog" timestamp="1605554384389">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state x="771" y="331" key="AndroidCreateXmlResourceDialog/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605554384389" />
     <state x="771" y="332" key="AndroidCreateXmlResourceDialog/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605480553302" />
     <state x="771" y="332" key="AndroidCreateXmlResourceDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605470888381" />
     <state x="771" y="333" key="AndroidCreateXmlResourceDialog/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472560436" />
-    <state x="309" y="74" key="CommitChangelistDialog2" timestamp="1605468631068">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state x="771" y="334" key="AndroidCreateXmlResourceDialog/0.23.1920.1109/1920.23.1344.817@0.23.1920.1109" timestamp="1605545001874" />
+    <state x="309" y="74" key="CommitChangelistDialog2" timestamp="1605544372597">
+      <screen x="0" y="23" width="1920" height="1108" />
     </state>
     <state x="309" y="74" key="CommitChangelistDialog2/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468631068" />
-    <state width="1868" height="222" key="GridCell.Tab.0.bottom" timestamp="1605523101630">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state x="309" y="74" key="CommitChangelistDialog2/0.23.1920.1108/1920.23.1344.817@0.23.1920.1108" timestamp="1605544372597" />
+    <state width="1868" height="300" key="GridCell.Tab.0.bottom" timestamp="1605548251669">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="222" key="GridCell.Tab.0.bottom/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101630" />
-    <state width="934" height="357" key="GridCell.Tab.0.bottom/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
+    <state width="1868" height="300" key="GridCell.Tab.0.bottom/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251669" />
     <state width="1868" height="295" key="GridCell.Tab.0.bottom/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683798" />
     <state width="1868" height="222" key="GridCell.Tab.0.bottom/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158252" />
-    <state width="1868" height="222" key="GridCell.Tab.0.center" timestamp="1605523101629">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.0.center" timestamp="1605548251668">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="222" key="GridCell.Tab.0.center/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101629" />
-    <state width="934" height="357" key="GridCell.Tab.0.center/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
+    <state width="1868" height="300" key="GridCell.Tab.0.center/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251668" />
     <state width="1868" height="295" key="GridCell.Tab.0.center/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683797" />
     <state width="1868" height="222" key="GridCell.Tab.0.center/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158250" />
-    <state width="1868" height="222" key="GridCell.Tab.0.left" timestamp="1605523101623">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.0.left" timestamp="1605548251668">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="222" key="GridCell.Tab.0.left/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101623" />
-    <state width="934" height="357" key="GridCell.Tab.0.left/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
+    <state width="1868" height="300" key="GridCell.Tab.0.left/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251668" />
     <state width="1868" height="295" key="GridCell.Tab.0.left/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683797" />
     <state width="1868" height="222" key="GridCell.Tab.0.left/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158248" />
-    <state width="1868" height="222" key="GridCell.Tab.0.right" timestamp="1605523101629">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.0.right" timestamp="1605548251669">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="222" key="GridCell.Tab.0.right/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605523101629" />
-    <state width="934" height="357" key="GridCell.Tab.0.right/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446652988" />
+    <state width="1868" height="300" key="GridCell.Tab.0.right/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251669" />
     <state width="1868" height="295" key="GridCell.Tab.0.right/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605476683798" />
     <state width="1868" height="222" key="GridCell.Tab.0.right/0.23.1920.1106/1920.23.1344.817@0.23.1920.1106" timestamp="1605472158250" />
-    <state width="1868" height="301" key="GridCell.Tab.1.bottom" timestamp="1605507938482">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.1.bottom" timestamp="1605548251669">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="301" key="GridCell.Tab.1.bottom/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
-    <state width="1157" height="414" key="GridCell.Tab.1.bottom/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642289" />
+    <state width="1868" height="300" key="GridCell.Tab.1.bottom/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251669" />
     <state width="1868" height="295" key="GridCell.Tab.1.bottom/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121315" />
-    <state width="1868" height="301" key="GridCell.Tab.1.center" timestamp="1605507938482">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.1.center" timestamp="1605548251669">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="301" key="GridCell.Tab.1.center/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
-    <state width="1157" height="414" key="GridCell.Tab.1.center/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642288" />
+    <state width="1868" height="300" key="GridCell.Tab.1.center/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251669" />
     <state width="1868" height="295" key="GridCell.Tab.1.center/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121315" />
-    <state width="1868" height="301" key="GridCell.Tab.1.left" timestamp="1605507938482">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.1.left" timestamp="1605548251669">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="301" key="GridCell.Tab.1.left/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
-    <state width="1157" height="414" key="GridCell.Tab.1.left/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642288" />
+    <state width="1868" height="300" key="GridCell.Tab.1.left/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251669" />
     <state width="1868" height="295" key="GridCell.Tab.1.left/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121314" />
-    <state width="1868" height="301" key="GridCell.Tab.1.right" timestamp="1605507938482">
-      <screen x="0" y="23" width="1920" height="1100" />
+    <state width="1868" height="300" key="GridCell.Tab.1.right" timestamp="1605548251669">
+      <screen x="0" y="23" width="1920" height="1102" />
     </state>
     <state width="1868" height="301" key="GridCell.Tab.1.right/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605507938482" />
-    <state width="1157" height="414" key="GridCell.Tab.1.right/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605446642289" />
+    <state width="1868" height="300" key="GridCell.Tab.1.right/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605548251669" />
     <state width="1868" height="295" key="GridCell.Tab.1.right/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605467121315" />
     <state x="355" y="125" key="SettingsEditor" timestamp="1605458194414">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="355" y="125" key="SettingsEditor/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605441784516" />
     <state x="355" y="125" key="SettingsEditor/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605458194414" />
-    <state x="480" y="252" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605468466091">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state x="460" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605544643527">
+      <screen x="0" y="23" width="1920" height="1109" />
+    </state>
+    <state x="460" y="249" key="Vcs.Push.Dialog.v2/0.23.1920.1109/1920.23.1344.817@0.23.1920.1109" timestamp="1605544643526" />
+    <state x="480" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605544387156">
+      <screen x="0" y="23" width="1920" height="1108" />
     </state>
     <state x="480" y="252" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468466091" />
-    <state x="367" y="397" width="1170" height="574" key="find.popup" timestamp="1605480599261">
-      <screen x="0" y="23" width="1920" height="1102" />
+    <state x="480" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1920.1108/1920.23.1344.817@0.23.1920.1108" timestamp="1605544387156" />
+    <state x="367" y="396" width="1170" height="574" key="find.popup" timestamp="1605554116624">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
-    <state x="367" y="397" width="1170" height="574" key="find.popup/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605480599261" />
+    <state x="367" y="396" width="1170" height="574" key="find.popup/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605554116624" />
+    <state x="367" y="397" width="1170" height="574" key="find.popup/0.23.1920.1102/1920.23.1344.817@0.23.1920.1102" timestamp="1605547976642" />
     <state x="367" y="398" width="1170" height="574" key="find.popup/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468815476" />
+    <state x="367" y="399" width="1170" height="578" key="find.popup/0.23.1920.1109/1920.23.1344.817@0.23.1920.1109" timestamp="1605544864173" />
     <state x="565" y="406" key="psd.add.library.dependency.panel.dimension" timestamp="1605437288001">
       <screen x="0" y="23" width="1920" height="1104" />
     </state>
     <state x="565" y="406" key="psd.add.library.dependency.panel.dimension/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605437288001" />
-    <state x="541" y="95" width="838" height="1032" key="search.everywhere.popup" timestamp="1605468501045">
-      <screen x="0" y="23" width="1920" height="1104" />
+    <state x="541" y="95" width="838" height="1029" key="search.everywhere.popup" timestamp="1605552876948">
+      <screen x="0" y="23" width="1920" height="1100" />
     </state>
+    <state x="541" y="95" width="838" height="1029" key="search.everywhere.popup/0.23.1920.1100/1920.23.1344.817@0.23.1920.1100" timestamp="1605552876948" />
     <state x="541" y="95" width="838" height="1032" key="search.everywhere.popup/0.23.1920.1104/1920.23.1344.817@0.23.1920.1104" timestamp="1605468501045" />
   </component>
   <component name="XDebuggerManager">
@@ -402,12 +463,12 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java</url>
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java</url>
           <line>58</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/WelcomeFragment.java</url>
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/HomeFragment.java</url>
           <line>66</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -418,8 +479,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="27" />
+          <line>38</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/pt/uminho/pg42819/attendance/data/ScheduleManager.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

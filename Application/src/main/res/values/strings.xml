@@ -3,9 +3,8 @@
 
     <string name="more_action">More</string>
     <string name="title_home">Home</string>
-    <string name="title_preferences">Preferences</string>
-    <string name="title_settings">Settings</string>
-    <string name="welcome">Welcome to the UM Attendance App.\nThis will help you get to classes on time and simultaneously provide the developer with data to try and pass IATA</string>
+    <string name="title_preferences">Courses</string>
+    <string name="title_settings">About</string>
     <string name="save">Save</string>
     <string name="offline">Offline mode</string>
     <string name="your_name">Your name</string>
@@ -16,5 +15,19 @@
     <string name="element_text">foobar</string>
 	<string name="emtpy_schedule">No classes scheduled</string>
     <string name="emtpy_schedule_message">Press the Courses button to set up your schedule</string>
+    <string name="schedule_title">Your Schedule</string>
+    <string name="today">Today</string>
+    <string name="now">Now</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="startingSoon">Soon</string>
+    <string name="starting">Starting</string>
+    <string name="about_title">About this App</string>
+    <string name="about_message">
+        "This application will help you get to class on time for MEI or MIEI Perfis.\n
+        More importantly, though, it will help me pass my IATA course and
+        I'm sure that's an important goal for you, dear user :)\n\n
 
+        It will do this by collecting anonymous data (totally anonymous!) on where you are
+        at class times, so as to determine the variation between in-presence and online
+        attendance."</string>
 </resources>

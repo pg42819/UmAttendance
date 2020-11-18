@@ -3,6 +3,7 @@ package pt.uminho.pg42819.attendance.model;
 import android.content.Context;
 
 import java.time.DayOfWeek;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
@@ -31,10 +32,12 @@ public class ScheduleItem implements Comparable<ScheduleItem>
 	DateTimeFormatter _timeFormat;
 	Locale _locale;
 	private Context _context;
+	private int _alert;
 
 	public ScheduleItem(Context context, Course course, Lesson lesson)
 	{
 		this(context);
+		_alert = -1;
 		_course = course;
 		_lesson = lesson;
 		_day = lesson.getDay();
@@ -66,7 +69,7 @@ public class ScheduleItem implements Comparable<ScheduleItem>
 		return _lesson.getName();
 	}
 
-	public String getSubtext()
+	public String getTimeSlot()
 	{
 		String dayAbbr = _day.getDisplayName(TextStyle.SHORT, _locale);
 		String dayAndTime = String.format("%s %s-%s", dayAbbr,
@@ -78,6 +81,58 @@ public class ScheduleItem implements Comparable<ScheduleItem>
 	public DayOfWeek getDay()
 	{
 		return _day;
+	}
+
+	/**
+	 * Returns a string resource identifier for an alert message, indicating if the scheduled
+	 * item is Now, Soon, Tomorrow, etc.
+	 *
+	 * Returns -1 if there is no special alert
+	 */
+	public int getAlert()
+	{
+		return _alert;
+	}
+
+	/**
+	 * Updates the alert string reference.
+	 */
+	public void updateAlert()
+	{
+		_alert = _calculateAlert();
+	}
+
+	/**
+	 * Works out the most relevant "alert" descriptor based on the current time
+	 */
+	private int _calculateAlert()
+	{
+		// TODO cache this and update it based on job schedule events rather than calc every time
+		int mostRelevant = -1;
+		LocalDateTime now = LocalDateTime.now();
+		if (now.getDayOfWeek().equals(_day)) {
+			mostRelevant = R.string.today;
+			LocalTime timeNow = now.toLocalTime();
+
+			if (_start.isBefore(timeNow)) {
+				if (_end.isAfter(timeNow)) {
+					mostRelevant = R.string.now;
+				}
+				// else finished for today - no alert
+			}
+			else if (_start.isBefore(timeNow.plusMinutes(5))) {
+				mostRelevant = R.string.starting;
+			}
+			else if (_start.isBefore(timeNow.plusMinutes(20))) {
+				mostRelevant = R.string.startingSoon;
+			}
+		}
+		else if (now.plusHours(24).getDayOfWeek().equals(_day)) {
+			mostRelevant = R.string.tomorrow;
+		}
+		// all other cases leave it as -1  = ends up blank
+
+		return mostRelevant;
 	}
 
 	public static List<ScheduleItem> getEmptyShedule(Context context)
@@ -96,8 +151,8 @@ public class ScheduleItem implements Comparable<ScheduleItem>
 			return 0;
 		}
 
-		Integer thatDay = new Integer(that._lesson.day.ordinal());
-		Integer thisDay = new Integer(this._lesson.day.ordinal());
+		Integer thatDay = new Integer(that._day.getValue());
+		Integer thisDay = new Integer(this._day.getValue());
 		int dayDiff = thisDay.compareTo(thatDay);
 		if (dayDiff != 0) {
 			return dayDiff;
@@ -128,7 +183,7 @@ public class ScheduleItem implements Comparable<ScheduleItem>
 		}
 
 		@Override
-		public String getSubtext()
+		public String getTimeSlot()
 		{
 			return getContext().getResources().getString(R.string.emtpy_schedule_message);
 		}

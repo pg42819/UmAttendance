@@ -7,14 +7,17 @@
 		android:layout_margin="1dp"
 		android:padding="8dp">
 
+	<!-- Code for Course like MFES in a box on the left of the row -->
 	<TextView
 			android:id="@+id/scheduleCodeView"
-			android:layout_width="26dp"
-			android:layout_height="26dp"
+			android:layout_width="60dp"
+			android:layout_height="match_parent"
+			android:gravity="center"
 			android:padding="1dp"
-			android:background="@color/cardview_dark_background"
+			android:background="@color/primary"
 			android:text="what?"
 			android:textSize="@dimen/lesson_code_size"
+			android:textColor="@color/color_on_primary_mask"
 			android:textStyle="bold" />
 	<!--			android:textColor="@co000000"-->
 
@@ -24,6 +27,9 @@
 				android:orientation="vertical"
 				android:padding="8dp">
 
+			<!-- setting layout margin in the views below forces the height
+					android:layout_margin="15dp"-->
+
 			<TextView
 					android:id="@+id/scheduleTitle"
 					android:layout_width="wrap_content"
@@ -32,6 +38,7 @@
 					android:textSize="@dimen/lesson_name_font_size"/>
 <!--					android:lineSpacingExtra="4sp" />-->
 
+			<!-- DAte and Alert row -->
 			<LinearLayout
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
@@ -40,19 +47,25 @@
 
 			<TextView
 					android:id="@+id/scheduleTime"
-					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
 					android:text="@string/element_text"
+					android:layout_gravity="left"
+					android:layout_weight="1"
 					android:textSize="@dimen/lesson_time_font_size"/>
 
+				<!-- Alert at the right hand side of the bottom panel.
+				     Can be "Today", "Soon", "Now", etc, or invisible -->
 			<TextView
 					android:id="@+id/scheduleAlert"
-					android:layout_width="200dp"
-					android:layout_height="wrap_content"
-					android:layout_gravity="right"
+					android:layout_height="match_parent"
+					android:layout_width="80dp"
+					android:layout_gravity="center"
 					android:text="@string/element_text"
 					android:textColor="@color/secondary"
 					android:background="@color/primary"
+					android:textStyle="bold"
+					android:paddingLeft="2sp"
 					android:textSize="@dimen/lesson_time_font_size"/>
 
 			</LinearLayout>

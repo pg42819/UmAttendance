@@ -16,9 +16,9 @@
             android:layout_height="?android:actionBarSize"
             android:elevation="@dimen/toolbar_elevation"
             android:title="@string/app_name"
-            app:logo="@drawable/eeumround1"
+            app:logo="@drawable/ic_launcher_"
             app:title="@string/app_name"
-            app:titleMarginStart="10dp"
+            app:titleMarginStart="32dp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent">

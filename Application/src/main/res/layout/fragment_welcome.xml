@@ -8,12 +8,15 @@
         android:gravity="center|fill_horizontal|top"
         android:divider="@drawable/divider"
         android:showDividers="middle">
+<!--    android:gravity="center|fill_horizontal|top"-->
 
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/welcome"
-            android:textSize="@dimen/welcome_font_size"
+            android:text="@string/schedule_title"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Caption"
+            android:textSize="20sp"
            />
 
     <androidx.recyclerview.widget.RecyclerView

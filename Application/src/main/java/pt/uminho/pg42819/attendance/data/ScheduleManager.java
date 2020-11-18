@@ -2,6 +2,9 @@ package pt.uminho.pg42819.attendance.data;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
+
+import androidx.preference.PreferenceManager;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,6 +17,10 @@ import pt.uminho.pg42819.attendance.model.ScheduleItem;
 public class ScheduleManager implements SharedPreferences.OnSharedPreferenceChangeListener
 {
 	private static final String LOGTAG = ScheduleManager.class.getSimpleName();
+//	private final static LocalDateTime NEVER = LocalDateTime.of(1970, 1, 1, 0, 0);
+
+	public static final long ALERT_FRESHNESS_MILLISECONDS = 2 * 60 * 1000; // 2 mins
+	private long _lastUpdate = 0;
 	private Context _context;
 	private CourseLoader _courseLoader;
 	List<ScheduleItem> _userSchedule = null;
@@ -23,6 +30,7 @@ public class ScheduleManager implements SharedPreferences.OnSharedPreferenceChan
 	{
 		_context = context;
 		_courseLoader = courseLoader;
+		_sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
 	}
 
 	@Override
@@ -51,6 +59,7 @@ public class ScheduleManager implements SharedPreferences.OnSharedPreferenceChan
 				}
 			}
 			Collections.sort(unsortedSchedule);
+			_userSchedule = unsortedSchedule;
 		}
 		return _userSchedule;
 	}
@@ -58,5 +67,30 @@ public class ScheduleManager implements SharedPreferences.OnSharedPreferenceChan
 	public int getItemCount()
 	{
 		return getUserSchedule().size();
+	}
+
+	public void reset()
+	{
+		_userSchedule = null;
+		_lastUpdate = 0;
+	}
+
+	public void updateAlertsIfNeeded()
+	{
+		final long now = System.currentTimeMillis();
+		// if a couple of minuts have passed update
+		if (now - _lastUpdate > ALERT_FRESHNESS_MILLISECONDS) {
+			Log.d(LOGTAG, "Updating alerts");
+			_lastUpdate = now;
+			updateAlerts();
+		}
+	}
+
+	public void updateAlerts()
+	{
+		final List<ScheduleItem> userSchedule = getUserSchedule();
+		for (ScheduleItem scheduleItem : userSchedule) {
+			scheduleItem.updateAlert();
+		}
 	}
 }
